@@ -1,5 +1,5 @@
 # RAG PDF Q&A System 📑
-A RAG application built with Python, FastAPI, Inngest, OpenAI Embeddings, LlamaIndex, and Qdrant Vector Database.  
+RAG application built with Python, FastAPI, Inngest, OpenAI Embeddings, LlamaIndex, and Qdrant Vector Database.  
 The system ingests PDF documents, splits them into semantic chunks, generates vector embeddings, and stores them in Qdrant for efficient similarity search. When a user submits a question, the application retrieves the most relevant document chunks and uses an LLM to generate context-aware answers grounded in the retrieved content.
 
 ## Features
